@@ -98,7 +98,7 @@ export function Summary({
         </div>
       </div>
 
-      <div className="flex justify-between pt-4">
+      <div className="flex justify-between pl-12 absolute bottom-6 right-8 w-full">
         <Button variant="ghost" onClick={goToPreviousStep}>
           Go Back
         </Button>

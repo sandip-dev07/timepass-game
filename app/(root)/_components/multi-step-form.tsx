@@ -48,7 +48,9 @@ const MultiStepForm = () => {
     <div className="min-h-screen bg-blue-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl p-4 grid md:grid-cols-[300px_1fr] gap-4 max-w-4xl w-full shadow-lg">
         <Sidebar currentStep={currentStep} />
-        <main className="p-4 md:p-8 min-h-[560px] max-h-[560px]">{renderComponent()}</main>
+        <main className="p-4 md:p-6 min-h-[560px] sm:max-h-[560px] relative">
+          {renderComponent()}
+        </main>
       </div>
     </div>
   );
